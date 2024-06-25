@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Encriptar de Texto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="encriptador1-desktop-container">
+        <div class="encriptador1-desktop-encriptador1-desktop">
+          <img
+            src="public/external/rectangle12220-gcc8-1000h.png"
+            alt="Rectangle12220"
+            class="encriptador1-desktop-rectangle1"
+          />
+          <span class="encriptador1-desktop-text">
+            <span>Ingrese el texto aqui</span>
+          </span>
+          <div class="encriptador1-desktop-frame3">
+            <button class="encriptador1-desktop-button">
+              <span class="encriptador1-desktop-text02">
+                <span>Encriptar</span>
+              </span>
+            </button>
+            <button class="encriptador1-desktop-button1">
+              <span class="encriptador1-desktop-text04">
+                <span>Desencriptar</span>
+              </span>
+            </button>
+          </div>
+          <div class="encriptador1-desktop-frame1">
+            <div class="encriptador1-desktop-biexclamationcirclefill">
+              <div class="encriptador1-desktop-group">
+                <img
+                  src="public/external/vector2233-nswm.svg"
+                  alt="Vector2233"
+                  class="encriptador1-desktop-vector"
+                />
+              </div>
+            </div>
+            <span class="encriptador1-desktop-text06">
+              <span>Solo letras minúsculas y sin acentos</span>
+            </span>
+          </div>
+          <div class="encriptador1-desktop-mueco">
+            <div class="encriptador1-desktop-background">
+              <div class="encriptador1-desktop-group001">
+                <div class="encriptador1-desktop-group002">
+                  <img
+                    src="public/external/vector2132-ik0l.svg"
+                    alt="Vector2132"
+                    class="encriptador1-desktop-vector001"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group003">
+                <div class="encriptador1-desktop-group004">
+                  <img
+                    src="public/external/vector2133-xi1r.svg"
+                    alt="Vector2133"
+                    class="encriptador1-desktop-vector002"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group005">
+                <div class="encriptador1-desktop-group006">
+                  <img
+                    src="public/external/vector2133-h4c7.svg"
+                    alt="Vector2133"
+                    class="encriptador1-desktop-vector003"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group007">
+                <div class="encriptador1-desktop-group008">
+                  <img
+                    src="public/external/vector2133-8lle.svg"
+                    alt="Vector2133"
+                    class="encriptador1-desktop-vector004"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group009">
+                <div class="encriptador1-desktop-group010">
+                  <img
+                    src="public/external/vector2133-b6tv.svg"
+                    alt="Vector2133"
+                    class="encriptador1-desktop-vector005"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group011">
+                <div class="encriptador1-desktop-group012">
+                  <img
+                    src="public/external/vector2134-zyq.svg"
+                    alt="Vector2134"
+                    class="encriptador1-desktop-vector006"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group013">
+                <div class="encriptador1-desktop-group014">
+                  <img
+                    src="public/external/vector2134-q3gt.svg"
+                    alt="Vector2134"
+                    class="encriptador1-desktop-vector007"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group015">
+                <div class="encriptador1-desktop-group016">
+                  <img
+                    src="public/external/vector2134-gt2n.svg"
+                    alt="Vector2134"
+                    class="encriptador1-desktop-vector008"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group017">
+                <div class="encriptador1-desktop-group018">
+                  <img
+                    src="public/external/vector2135-0998.svg"
+                    alt="Vector2135"
+                    class="encriptador1-desktop-vector009"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group019">
+                <div class="encriptador1-desktop-group020">
+                  <img
+                    src="public/external/vector2135-jj8p.svg"
+                    alt="Vector2135"
+                    class="encriptador1-desktop-vector010"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group021">
+                <div class="encriptador1-desktop-group022">
+                  <img
+                    src="public/external/vector2135-yd6.svg"
+                    alt="Vector2135"
+                    class="encriptador1-desktop-vector011"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group023">
+                <div class="encriptador1-desktop-group024">
+                  <img
+                    src="public/external/vector2136-osq8.svg"
+                    alt="Vector2136"
+                    class="encriptador1-desktop-vector012"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group025">
+                <div class="encriptador1-desktop-group026">
+                  <img
+                    src="public/external/vector2136-t9dl.svg"
+                    alt="Vector2136"
+                    class="encriptador1-desktop-vector013"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group027">
+                <div class="encriptador1-desktop-group028">
+                  <img
+                    src="public/external/vector2136-nthd.svg"
+                    alt="Vector2136"
+                    class="encriptador1-desktop-vector014"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group029">
+                <div class="encriptador1-desktop-group030">
+                  <img
+                    src="public/external/vector2136-ibtk.svg"
+                    alt="Vector2136"
+                    class="encriptador1-desktop-vector015"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group031">
+                <div class="encriptador1-desktop-group032">
+                  <img
+                    src="public/external/vector2137-0l3j.svg"
+                    alt="Vector2137"
+                    class="encriptador1-desktop-vector016"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group033">
+                <div class="encriptador1-desktop-group034">
+                  <img
+                    src="public/external/vector2137-ohui.svg"
+                    alt="Vector2137"
+                    class="encriptador1-desktop-vector017"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group035">
+                <div class="encriptador1-desktop-group036">
+                  <img
+                    src="public/external/vector2137-8ftf.svg"
+                    alt="Vector2137"
+                    class="encriptador1-desktop-vector018"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group037">
+                <div class="encriptador1-desktop-group038">
+                  <img
+                    src="public/external/vector2138-bhtu.svg"
+                    alt="Vector2138"
+                    class="encriptador1-desktop-vector019"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group039">
+                <div class="encriptador1-desktop-group040">
+                  <img
+                    src="public/external/vector2138-lklo.svg"
+                    alt="Vector2138"
+                    class="encriptador1-desktop-vector020"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group041">
+                <div class="encriptador1-desktop-group042">
+                  <img
+                    src="public/external/vector2138-72ss.svg"
+                    alt="Vector2138"
+                    class="encriptador1-desktop-vector021"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group043">
+                <div class="encriptador1-desktop-group044">
+                  <img
+                    src="public/external/vector2139-mj71.svg"
+                    alt="Vector2139"
+                    class="encriptador1-desktop-vector022"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group045">
+                <div class="encriptador1-desktop-group046">
+                  <img
+                    src="public/external/vector2139-qvq8.svg"
+                    alt="Vector2139"
+                    class="encriptador1-desktop-vector023"
+                  />
+                </div>
+              </div>
+              <img
+                src="public/external/vector2139-a2s5.svg"
+                alt="Vector2139"
+                class="encriptador1-desktop-vector024"
+              />
+              <img
+                src="public/external/vector2139-zfcy.svg"
+                alt="Vector2139"
+                class="encriptador1-desktop-vector025"
+              />
+              <img
+                src="public/external/vector2139-s9o.svg"
+                alt="Vector2139"
+                class="encriptador1-desktop-vector026"
+              />
+              <img
+                src="public/external/vector2139-rvbl.svg"
+                alt="Vector2139"
+                class="encriptador1-desktop-vector027"
+              />
+              <img
+                src="public/external/vector2139-m2l.svg"
+                alt="Vector2139"
+                class="encriptador1-desktop-vector028"
+              />
+              <img
+                src="public/external/vector2139-ojh.svg"
+                alt="Vector2139"
+                class="encriptador1-desktop-vector029"
+              />
+              <img
+                src="public/external/vector2140-awxf.svg"
+                alt="Vector2140"
+                class="encriptador1-desktop-vector030"
+              />
+              <img
+                src="public/external/vector2140-eji.svg"
+                alt="Vector2140"
+                class="encriptador1-desktop-vector031"
+              />
+            </div>
+            <div class="encriptador1-desktop-diamod">
+              <img
+                src="public/external/vector2140-keql.svg"
+                alt="Vector2140"
+                class="encriptador1-desktop-vector032"
+              />
+              <div class="encriptador1-desktop-group047">
+                <div class="encriptador1-desktop-group048">
+                  <img
+                    src="public/external/vector2140-dzv9.svg"
+                    alt="Vector2140"
+                    class="encriptador1-desktop-vector033"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group049">
+                <div class="encriptador1-desktop-group050">
+                  <img
+                    src="public/external/vector2140-7eo.svg"
+                    alt="Vector2140"
+                    class="encriptador1-desktop-vector034"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group051">
+                <div class="encriptador1-desktop-group052">
+                  <img
+                    src="public/external/vector2141-pqqq.svg"
+                    alt="Vector2141"
+                    class="encriptador1-desktop-vector035"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group053">
+                <div class="encriptador1-desktop-group054">
+                  <img
+                    src="public/external/vector2141-a38g.svg"
+                    alt="Vector2141"
+                    class="encriptador1-desktop-vector036"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group055">
+                <div class="encriptador1-desktop-group056">
+                  <img
+                    src="public/external/vector2141-tggj.svg"
+                    alt="Vector2141"
+                    class="encriptador1-desktop-vector037"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group057">
+                <div class="encriptador1-desktop-group058">
+                  <img
+                    src="public/external/vector2142-04rm.svg"
+                    alt="Vector2142"
+                    class="encriptador1-desktop-vector038"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group059">
+                <div class="encriptador1-desktop-group060">
+                  <img
+                    src="public/external/vector2142-irjd.svg"
+                    alt="Vector2142"
+                    class="encriptador1-desktop-vector039"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group061">
+                <div class="encriptador1-desktop-group062">
+                  <img
+                    src="public/external/vector2142-c26.svg"
+                    alt="Vector2142"
+                    class="encriptador1-desktop-vector040"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group063">
+                <div class="encriptador1-desktop-group064">
+                  <img
+                    src="public/external/vector2143-jo6.svg"
+                    alt="Vector2143"
+                    class="encriptador1-desktop-vector041"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group065">
+                <div class="encriptador1-desktop-group066">
+                  <img
+                    src="public/external/vector2143-ffjh.svg"
+                    alt="Vector2143"
+                    class="encriptador1-desktop-vector042"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group067">
+                <div class="encriptador1-desktop-group068">
+                  <img
+                    src="public/external/vector2143-8xxt.svg"
+                    alt="Vector2143"
+                    class="encriptador1-desktop-vector043"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group069">
+                <div class="encriptador1-desktop-group070">
+                  <img
+                    src="public/external/vector2143-eeqo.svg"
+                    alt="Vector2143"
+                    class="encriptador1-desktop-vector044"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group071">
+                <div class="encriptador1-desktop-group072">
+                  <img
+                    src="public/external/vector2144-n67.svg"
+                    alt="Vector2144"
+                    class="encriptador1-desktop-vector045"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group073">
+                <div class="encriptador1-desktop-group074">
+                  <img
+                    src="public/external/vector2144-44wc.svg"
+                    alt="Vector2144"
+                    class="encriptador1-desktop-vector046"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group075">
+                <div class="encriptador1-desktop-group076">
+                  <img
+                    src="public/external/vector2144-9zwt.svg"
+                    alt="Vector2144"
+                    class="encriptador1-desktop-vector047"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group077">
+                <div class="encriptador1-desktop-group078">
+                  <img
+                    src="public/external/vector2145-zjg.svg"
+                    alt="Vector2145"
+                    class="encriptador1-desktop-vector048"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group079">
+                <div class="encriptador1-desktop-group080">
+                  <img
+                    src="public/external/vector2145-jvh.svg"
+                    alt="Vector2145"
+                    class="encriptador1-desktop-vector049"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group081">
+                <div class="encriptador1-desktop-group082">
+                  <img
+                    src="public/external/vector2145-bd9g.svg"
+                    alt="Vector2145"
+                    class="encriptador1-desktop-vector050"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group083">
+                <div class="encriptador1-desktop-group084">
+                  <img
+                    src="public/external/vector2146-y1t.svg"
+                    alt="Vector2146"
+                    class="encriptador1-desktop-vector051"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group085">
+                <div class="encriptador1-desktop-group086">
+                  <img
+                    src="public/external/vector2146-ds7h.svg"
+                    alt="Vector2146"
+                    class="encriptador1-desktop-vector052"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group087">
+                <div class="encriptador1-desktop-group088">
+                  <img
+                    src="public/external/vector2146-aqhh.svg"
+                    alt="Vector2146"
+                    class="encriptador1-desktop-vector053"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group089">
+                <div class="encriptador1-desktop-group090">
+                  <img
+                    src="public/external/vector2146-ycug.svg"
+                    alt="Vector2146"
+                    class="encriptador1-desktop-vector054"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group091">
+                <div class="encriptador1-desktop-group092">
+                  <img
+                    src="public/external/vector2147-nmh.svg"
+                    alt="Vector2147"
+                    class="encriptador1-desktop-vector055"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="encriptador1-desktop-legright">
+              <img
+                src="public/external/vector2147-m4et.svg"
+                alt="Vector2147"
+                class="encriptador1-desktop-vector056"
+              />
+              <img
+                src="public/external/vector2147-2ri.svg"
+                alt="Vector2147"
+                class="encriptador1-desktop-vector057"
+              />
+              <img
+                src="public/external/vector2147-gkn8.svg"
+                alt="Vector2147"
+                class="encriptador1-desktop-vector058"
+              />
+              <div class="encriptador1-desktop-group093">
+                <div class="encriptador1-desktop-group094">
+                  <img
+                    src="public/external/vector2147-f8k8.svg"
+                    alt="Vector2147"
+                    class="encriptador1-desktop-vector059"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group095">
+                <div class="encriptador1-desktop-group096">
+                  <img
+                    src="public/external/vector2148-s5yp.svg"
+                    alt="Vector2148"
+                    class="encriptador1-desktop-vector060"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group097">
+                <div class="encriptador1-desktop-group098">
+                  <img
+                    src="public/external/vector2148-d9w9.svg"
+                    alt="Vector2148"
+                    class="encriptador1-desktop-vector061"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group099">
+                <div class="encriptador1-desktop-group100">
+                  <img
+                    src="public/external/vector2148-mtnu.svg"
+                    alt="Vector2148"
+                    class="encriptador1-desktop-vector062"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group101">
+                <div class="encriptador1-desktop-group102">
+                  <img
+                    src="public/external/vector2149-fr6.svg"
+                    alt="Vector2149"
+                    class="encriptador1-desktop-vector063"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group103">
+                <div class="encriptador1-desktop-group104">
+                  <img
+                    src="public/external/vector2149-5bpl.svg"
+                    alt="Vector2149"
+                    class="encriptador1-desktop-vector064"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group105">
+                <div class="encriptador1-desktop-group106">
+                  <img
+                    src="public/external/vector2149-l5ocq.svg"
+                    alt="Vector2149"
+                    class="encriptador1-desktop-vector065"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group107">
+                <div class="encriptador1-desktop-group108">
+                  <img
+                    src="public/external/vector2150-7u7e.svg"
+                    alt="Vector2150"
+                    class="encriptador1-desktop-vector066"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="encriptador1-desktop-legleft">
+              <img
+                src="public/external/vector2150-0yse.svg"
+                alt="Vector2150"
+                class="encriptador1-desktop-vector067"
+              />
+              <img
+                src="public/external/vector2150-x6jj.svg"
+                alt="Vector2150"
+                class="encriptador1-desktop-vector068"
+              />
+              <img
+                src="public/external/vector2150-6z2a.svg"
+                alt="Vector2150"
+                class="encriptador1-desktop-vector069"
+              />
+              <div class="encriptador1-desktop-group109">
+                <div class="encriptador1-desktop-group110">
+                  <img
+                    src="public/external/vector2150-abyr.svg"
+                    alt="Vector2150"
+                    class="encriptador1-desktop-vector070"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group111">
+                <div class="encriptador1-desktop-group112">
+                  <img
+                    src="public/external/vector2151-98as.svg"
+                    alt="Vector2151"
+                    class="encriptador1-desktop-vector071"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group113">
+                <div class="encriptador1-desktop-group114">
+                  <img
+                    src="public/external/vector2151-bg39.svg"
+                    alt="Vector2151"
+                    class="encriptador1-desktop-vector072"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group115">
+                <div class="encriptador1-desktop-group116">
+                  <img
+                    src="public/external/vector2151-jr9d.svg"
+                    alt="Vector2151"
+                    class="encriptador1-desktop-vector073"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group117">
+                <div class="encriptador1-desktop-group118">
+                  <img
+                    src="public/external/vector2151-0o0i.svg"
+                    alt="Vector2151"
+                    class="encriptador1-desktop-vector074"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group119">
+                <div class="encriptador1-desktop-group120">
+                  <img
+                    src="public/external/vector2152-ad2.svg"
+                    alt="Vector2152"
+                    class="encriptador1-desktop-vector075"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group121">
+                <div class="encriptador1-desktop-group122">
+                  <img
+                    src="public/external/vector2152-ppo.svg"
+                    alt="Vector2152"
+                    class="encriptador1-desktop-vector076"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group123">
+                <div class="encriptador1-desktop-group124">
+                  <img
+                    src="public/external/vector2152-04uk.svg"
+                    alt="Vector2152"
+                    class="encriptador1-desktop-vector077"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="encriptador1-desktop-torso">
+              <img
+                src="public/external/vector2153-khhs.svg"
+                alt="Vector2153"
+                class="encriptador1-desktop-vector078"
+              />
+            </div>
+            <div class="encriptador1-desktop-handleft">
+              <img
+                src="public/external/vector2153-5imr.svg"
+                alt="Vector2153"
+                class="encriptador1-desktop-vector079"
+              />
+              <img
+                src="public/external/vector2153-7i5i.svg"
+                alt="Vector2153"
+                class="encriptador1-desktop-vector080"
+              />
+              <div class="encriptador1-desktop-group125">
+                <div class="encriptador1-desktop-group126">
+                  <img
+                    src="public/external/vector2153-dcra.svg"
+                    alt="Vector2153"
+                    class="encriptador1-desktop-vector081"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group127">
+                <div class="encriptador1-desktop-group128">
+                  <img
+                    src="public/external/vector2153-c2i3.svg"
+                    alt="Vector2153"
+                    class="encriptador1-desktop-vector082"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group129">
+                <div class="encriptador1-desktop-group130">
+                  <img
+                    src="public/external/vector2154-7fp.svg"
+                    alt="Vector2154"
+                    class="encriptador1-desktop-vector083"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group131">
+                <div class="encriptador1-desktop-group132">
+                  <img
+                    src="public/external/vector2154-ch1l.svg"
+                    alt="Vector2154"
+                    class="encriptador1-desktop-vector084"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group133">
+                <div class="encriptador1-desktop-group134">
+                  <img
+                    src="public/external/vector2154-s0yp.svg"
+                    alt="Vector2154"
+                    class="encriptador1-desktop-vector085"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group135">
+                <div class="encriptador1-desktop-group136">
+                  <img
+                    src="public/external/vector2155-hgq9.svg"
+                    alt="Vector2155"
+                    class="encriptador1-desktop-vector086"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group137">
+                <div class="encriptador1-desktop-group138">
+                  <img
+                    src="public/external/vector2155-xs6o.svg"
+                    alt="Vector2155"
+                    class="encriptador1-desktop-vector087"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group139">
+                <div class="encriptador1-desktop-group140">
+                  <img
+                    src="public/external/vector2155-e5a.svg"
+                    alt="Vector2155"
+                    class="encriptador1-desktop-vector088"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group141">
+                <div class="encriptador1-desktop-group142">
+                  <img
+                    src="public/external/vector2156-9kwp.svg"
+                    alt="Vector2156"
+                    class="encriptador1-desktop-vector089"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="encriptador1-desktop-heda">
+              <img
+                src="public/external/vector2156-r9.svg"
+                alt="Vector2156"
+                class="encriptador1-desktop-vector090"
+              />
+              <img
+                src="public/external/vector2156-93bw.svg"
+                alt="Vector2156"
+                class="encriptador1-desktop-vector091"
+              />
+              <img
+                src="public/external/vector2156-jfdn.svg"
+                alt="Vector2156"
+                class="encriptador1-desktop-vector092"
+              />
+              <div class="encriptador1-desktop-group143">
+                <div class="encriptador1-desktop-group144">
+                  <img
+                    src="public/external/vector2156-j6ah.svg"
+                    alt="Vector2156"
+                    class="encriptador1-desktop-vector093"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group145">
+                <div class="encriptador1-desktop-group146">
+                  <img
+                    src="public/external/vector2157-7fv.svg"
+                    alt="Vector2157"
+                    class="encriptador1-desktop-vector094"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group147">
+                <div class="encriptador1-desktop-group148">
+                  <img
+                    src="public/external/vector2157-suicl.svg"
+                    alt="Vector2157"
+                    class="encriptador1-desktop-vector095"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group149">
+                <div class="encriptador1-desktop-group150">
+                  <img
+                    src="public/external/vector2157-1a8e.svg"
+                    alt="Vector2157"
+                    class="encriptador1-desktop-vector096"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group151">
+                <div class="encriptador1-desktop-group152">
+                  <img
+                    src="public/external/vector2157-apn.svg"
+                    alt="Vector2157"
+                    class="encriptador1-desktop-vector097"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group153">
+                <div class="encriptador1-desktop-group154">
+                  <img
+                    src="public/external/vector2158-utyj.svg"
+                    alt="Vector2158"
+                    class="encriptador1-desktop-vector098"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group155">
+                <div class="encriptador1-desktop-group156">
+                  <img
+                    src="public/external/vector2158-ugoh.svg"
+                    alt="Vector2158"
+                    class="encriptador1-desktop-vector099"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group157">
+                <div class="encriptador1-desktop-group158">
+                  <img
+                    src="public/external/vector2158-jq99.svg"
+                    alt="Vector2158"
+                    class="encriptador1-desktop-vector100"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group159">
+                <div class="encriptador1-desktop-group160">
+                  <img
+                    src="public/external/vector2159-50tc.svg"
+                    alt="Vector2159"
+                    class="encriptador1-desktop-vector101"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group161">
+                <div class="encriptador1-desktop-group162">
+                  <img
+                    src="public/external/vector2159-7q1i.svg"
+                    alt="Vector2159"
+                    class="encriptador1-desktop-vector102"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group163">
+                <div class="encriptador1-desktop-group164">
+                  <img
+                    src="public/external/vector2159-jwwn.svg"
+                    alt="Vector2159"
+                    class="encriptador1-desktop-vector103"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group165">
+                <div class="encriptador1-desktop-group166">
+                  <img
+                    src="public/external/vector2160-d07v.svg"
+                    alt="Vector2160"
+                    class="encriptador1-desktop-vector104"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group167">
+                <div class="encriptador1-desktop-group168">
+                  <img
+                    src="public/external/vector2160-bcth.svg"
+                    alt="Vector2160"
+                    class="encriptador1-desktop-vector105"
+                  />
+                </div>
+              </div>
+              <img
+                src="public/external/vector2160-6dqf.svg"
+                alt="Vector2160"
+                class="encriptador1-desktop-vector106"
+              />
+            </div>
+            <div class="encriptador1-desktop-handright">
+              <img
+                src="public/external/vector2160-of1q.svg"
+                alt="Vector2160"
+                class="encriptador1-desktop-vector107"
+              />
+              <img
+                src="public/external/vector2160-tmj.svg"
+                alt="Vector2160"
+                class="encriptador1-desktop-vector108"
+              />
+              <div class="encriptador1-desktop-group169">
+                <div class="encriptador1-desktop-group170">
+                  <img
+                    src="public/external/vector2161-awnx.svg"
+                    alt="Vector2161"
+                    class="encriptador1-desktop-vector109"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group171">
+                <div class="encriptador1-desktop-group172">
+                  <img
+                    src="public/external/vector2161-fk5i.svg"
+                    alt="Vector2161"
+                    class="encriptador1-desktop-vector110"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group173">
+                <div class="encriptador1-desktop-group174">
+                  <img
+                    src="public/external/vector2161-w7yp.svg"
+                    alt="Vector2161"
+                    class="encriptador1-desktop-vector111"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group175">
+                <div class="encriptador1-desktop-group176">
+                  <img
+                    src="public/external/vector2161-zdrm.svg"
+                    alt="Vector2161"
+                    class="encriptador1-desktop-vector112"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group177">
+                <div class="encriptador1-desktop-group178">
+                  <img
+                    src="public/external/vector2162-fd87.svg"
+                    alt="Vector2162"
+                    class="encriptador1-desktop-vector113"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group179">
+                <div class="encriptador1-desktop-group180">
+                  <img
+                    src="public/external/vector2162-tml.svg"
+                    alt="Vector2162"
+                    class="encriptador1-desktop-vector114"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group181">
+                <div class="encriptador1-desktop-group182">
+                  <img
+                    src="public/external/vector2162-h1hn.svg"
+                    alt="Vector2162"
+                    class="encriptador1-desktop-vector115"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group183">
+                <div class="encriptador1-desktop-group184">
+                  <img
+                    src="public/external/vector2163-fsy9.svg"
+                    alt="Vector2163"
+                    class="encriptador1-desktop-vector116"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group185">
+                <div class="encriptador1-desktop-group186">
+                  <img
+                    src="public/external/vector2163-amv6.svg"
+                    alt="Vector2163"
+                    class="encriptador1-desktop-vector117"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group187">
+                <div class="encriptador1-desktop-group188">
+                  <img
+                    src="public/external/vector2163-lsp1.svg"
+                    alt="Vector2163"
+                    class="encriptador1-desktop-vector118"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group189">
+                <div class="encriptador1-desktop-group190">
+                  <img
+                    src="public/external/vector2164-k1j.svg"
+                    alt="Vector2164"
+                    class="encriptador1-desktop-vector119"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group191">
+                <div class="encriptador1-desktop-group192">
+                  <img
+                    src="public/external/vector2164-fusk.svg"
+                    alt="Vector2164"
+                    class="encriptador1-desktop-vector120"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group193">
+                <div class="encriptador1-desktop-group194">
+                  <img
+                    src="public/external/vector2164-ydw6.svg"
+                    alt="Vector2164"
+                    class="encriptador1-desktop-vector121"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group195">
+                <div class="encriptador1-desktop-group196">
+                  <img
+                    src="public/external/vector2164-p8hf.svg"
+                    alt="Vector2164"
+                    class="encriptador1-desktop-vector122"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group197">
+                <div class="encriptador1-desktop-group198">
+                  <img
+                    src="public/external/vector2165-jwku.svg"
+                    alt="Vector2165"
+                    class="encriptador1-desktop-vector123"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group199">
+                <div class="encriptador1-desktop-group200">
+                  <img
+                    src="public/external/vector2165-o6zo.svg"
+                    alt="Vector2165"
+                    class="encriptador1-desktop-vector124"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group201">
+                <div class="encriptador1-desktop-group202">
+                  <img
+                    src="public/external/vector2165-xtw9.svg"
+                    alt="Vector2165"
+                    class="encriptador1-desktop-vector125"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group203">
+                <div class="encriptador1-desktop-group204">
+                  <img
+                    src="public/external/vector2166-90q.svg"
+                    alt="Vector2166"
+                    class="encriptador1-desktop-vector126"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group205">
+                <div class="encriptador1-desktop-group206">
+                  <img
+                    src="public/external/vector2166-sm2y.svg"
+                    alt="Vector2166"
+                    class="encriptador1-desktop-vector127"
+                  />
+                </div>
+              </div>
+              <img
+                src="public/external/vector2166-n3lj.svg"
+                alt="Vector2166"
+                class="encriptador1-desktop-vector128"
+              />
+              <div class="encriptador1-desktop-group207">
+                <div class="encriptador1-desktop-group208">
+                  <img
+                    src="public/external/vector2166-zweg.svg"
+                    alt="Vector2166"
+                    class="encriptador1-desktop-vector129"
+                  />
+                </div>
+              </div>
+              <div class="encriptador1-desktop-group209">
+                <div class="encriptador1-desktop-group210">
+                  <img
+                    src="public/external/vector2167-4tch.svg"
+                    alt="Vector2167"
+                    class="encriptador1-desktop-vector130"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="encriptador1-desktop-frame5">
+            <span class="encriptador1-desktop-text08">
+              <span>Ningún mensaje fue encontrado</span>
+            </span>
+            <span class="encriptador1-desktop-text10">
+              <span>Ingresa el texto que desees encriptar o desencriptar.</span>
+            </span>
+          </div>
+          <div class="encriptador1-desktop-logo">
+            <img
+              src="public/external/logo4947-6p53k.svg"
+              alt="Logo4947"
+              class="encriptador1-desktop-logo1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
