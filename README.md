@@ -21,18 +21,6 @@ Este proyecto es una aplicación web simple para encriptar y desencriptar texto 
 - **style.css**: Estilos específicos del proyecto.
 - **scripts.js**: Lógica de encriptación y desencriptación.
 
-## Cómo Usar
+## Créditos
 
-1. **Abrir la aplicación**: Puedes abrir `index.html` en tu navegador favorito.
-2. **Ingresar texto**: Escribe el texto que deseas encriptar o desencriptar en el área de texto.
-3. **Seleccionar acción**: Usa los botones "Encriptar" o "Desencriptar" para transformar tu texto.
-4. **Copiar resultado**: Usa el botón "Copiar" para copiar el texto encriptado o desencriptado al portapapeles.
-
-## Instalación
-
-No se requiere instalación especial. Simplemente clona este repositorio y abre `index.html` en tu navegador.
-
-```bash
-git clone https://github.com/tu_usuario/encriptador-de-texto.git
-cd encriptador-de-texto
-open index.html
+Desarrollado por Cristian Samuel Mantilla (@rissamman).
