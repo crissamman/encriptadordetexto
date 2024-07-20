@@ -23,4 +23,4 @@ Este proyecto es una aplicación web simple para encriptar y desencriptar texto 
 
 ## Créditos
 
-Desarrollado por Cristian Samuel Mantilla (@rissamman).
+Desarrollado por Cristian Samuel Mantilla (@crissamman).
